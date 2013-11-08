@@ -1,0 +1,18 @@
+*{
+		font-family: 'Lato',sans-serif;
+		font-weight: 300;
+		font-size:16px;
+}
+.smallcaps{
+	font-variant:small-caps;
+
+}
+
+
+#contact a{color:#333333;}
+#contact a:hover {color:#7f7f7f;
+text-decoration: none;}
+
+footer p a{color:#333333;}
+footer p a:hover {color:#7f7f7f;
+text-decoration: none;}
