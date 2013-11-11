@@ -21,7 +21,7 @@ function initiate_stats() {
 	document.getElementById("change").innerHTML='<div></div>';
 
 	update_stats();
-	document.getElementById("prompt").innerHTML= startprompt+'<br>';
+	document.getElementById("prompt").innerHTML= '<p></p>' +startprompt+'<br>';
 	document.getElementById("prompt").innerHTML+= '<input type="button" value="'+choice1start+'" onClick="choice(1)">  <input type="button" value="' +choice2start+ '" onClick="choice(2)"> ';
 }
 
@@ -30,7 +30,7 @@ function update_stats(){
 	if (displayhealth){
 	document.getElementById("healthbar").innerHTML='<div class="progress"> <div class="bar '+ healthstatus+' " style="width:'+health+ '%;"></div> </div>';}
 	if(displaybottlecaps){
-	document.getElementById("bottlecaps").innerHTML='<p>Bottlecaps</p><div>'+ bottlecaps +'</div> ';}
+	document.getElementById("bottlecaps").innerHTML='<p><em>Bottlecaps</em></p><div><img src=\'assets/img/bottlecap.jpg\' style="height:20px"> '+ bottlecaps +'<p><br> </p></div> ';}
 
 }
 
